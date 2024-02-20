@@ -60,7 +60,6 @@ ctx.timerCard.on("timerFinished", async (timerId) => {
     ctx.timerCard.audioPlayer.play(URL.createObjectURL(audioBlob));
   } else {
     // if speech syntesis is available use that else use default sound
-    console.log(defaultSound);
     ctx.timerCard.audioPlayer.play(
       "https://raw.githubusercontent.com/himanshunegi378/timerCardsPlugin/main/NotificationPlugin/alarm.mp3",
       2
