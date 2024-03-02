@@ -5,11 +5,11 @@ import { resolve } from "path";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  build: {
-    copyPublicDir: false,
-    lib: {
-      entry: resolve(__dirname, "lib/main.js"),
-      formats: ["es"],
-    },
-  },
+  // build: {
+  //   copyPublicDir: false,
+  //   lib: {
+  //     entry: resolve(__dirname, "lib/main.js"),
+  //     formats: ["es"],
+  //   },
+  // },
 });
