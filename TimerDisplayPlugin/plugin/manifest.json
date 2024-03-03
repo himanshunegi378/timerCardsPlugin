@@ -1,4 +1,5 @@
 {
   "name": "Timer Display Plugin",
-  "code": "/timerdisplayplugin.js"
+  "code": "/timerdisplayplugin.js",
+  "ui": "/index.html"
 }
